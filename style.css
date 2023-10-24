@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;
+}
+.cabecalho{
+    background-color: #7c71ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px; 
+}
+.inicio{
+    color: #200065;
+}
+li{
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+    color: #200065;
+}
+a{
+    text-decoration: none;
+}
+.info-usuario{
+    color: white;
+    margin-left: 30px;
+}
+.nome{
+    text-transform: uppercase;
+}
+.imagem{
+    color: darkorchid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 12p;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.click{
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    color:blue;
+}
+.primeira-div{
+    background-color: #AEBFEB;
+    height: 103px; /*altura dos elementos*/
+    width: 10%; /*largura dos elementos*/
+    display: flex;
+    align-items: center;/* alinha so elementos ao centro*/
+    justify-content: flex-end;
+}
+
+.avaliacao{
+    position: relative;
+    top: 5px;
+}
+.secao-imagem{
+    margin-bottom: 20px; 
+
+}
+.nossos-clientes{
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f;
+    background-color: #AEBFEB;
+}
+.div-secao{
+    text-align: center;
+    background-color:#AEBFEB;
+}
+.compra{
+    color: #200065;
+}
+.colecao{
+    color: #200065;
+}
+.clientes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #200065; 
+}
+    
+    
+.modelos1{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 10vh;
+    padding: 68px;  
+    flex-direction: column;        
+}
+.modelos2{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 10vh;
+    padding: 68px;  
+    text-align: right;
+    flex-direction: column;
+    
+}
+
+.id-pedidos{
+    
+    justify-content: space-around;
+}
+
+#segunda-secao{
+    
+}
+.h-fale{
+    text-align: center;
+    color: #00f;
+}
+
+#faleConosco{
+    background-color: #AEBFEB;
+    color: #fff;
+    margin: 10px 0;
+    width: 1440px;
+    /*height: 685px;*/
+    font-weight: bold;
+    top: 1689px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f;
+    text-align: justify;
+}
+#emailPessoal{
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 50px;
+    width: 1440px;
+    /*height: 685px;*/
+    top: 1689px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 4%; /* Reduz o tamanho da fonte dos campos */
+    line-height: 1%;
+}
+#nome{
+    color: #fff;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    width: 1440px;
+    /*height: 685px;*/
+    font-weight: bold;
+    top: 1689px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-size: 4%; /* Reduz o tamanho da fonte dos campos */
+    line-height: 1%;
+}
+#mensagem{
+    color: #fff;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    width: 1440px;
+    /*height: 685px;*/
+    font-weight: bold;
+    top: 16px;
+    margin-bottom: 5px;
+}
+button{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: black;
+    color:#fff;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    top: auto;
+    
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small
+}
+table{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+tr.linha1{
+    background-color: #7C71FF;
+}
+.pedidos{
+    text-align: center;
+    color: #00f;
+}
